@@ -69,10 +69,10 @@ python weather.py
 
 The program will:
 
-    1.Load historical weather data
-    2.Train machine learning models
-    4.Predict the next 5 days
-    4.Print the forecast in the console
+1.Load historical weather data
+2.Train machine learning models
+3.Predict the next 5 days
+4.Print the forecast in the console
 
 ---
 
@@ -80,45 +80,45 @@ The program will:
 
 ### 1️⃣ Data Loading & Cleaning
 
--Reads CSV file
+- Reads CSV file
 
--Converts date column to datetime format
+- Converts date column to datetime format
 
--Removes missing values
+- Removes missing values
 
--Aggregates data by date
+- Aggregates data by date
 
 ### 2️⃣ Feature Engineering
 
--Encodes weather conditions
+- Encodes weather conditions
 
--Extracts time-based features (day, month, etc.)
+- Extracts time-based features (day, month, etc.)
 
--Scales input data
+- Scales input data
 
 ### 3️⃣ Model Training
 
 Four separate Random Forest Regressors are trained to predict:
 
--Minimum temperature
+- Minimum temperature
 
--Maximum temperature
+- Maximum temperature
 
--Humidity
+- Humidity
 
--Rainfall
+- Rainfall
 
 ### Forecast Generation
 
 The model:
 
--Starts from the last available date
+- Starts from the last available date
 
--Predicts one day at a time
+- Predicts one day at a time
 
--Uses previous predictions to forecast the next day
+- Uses previous predictions to forecast the next day
 
--Repeats this for 5 days
+- Repeats this for 5 days
 
 ---
 
