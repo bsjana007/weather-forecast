@@ -33,12 +33,14 @@ The forecast is generated iteratively using trained regression models.
 
 ## 📂 Repository Structure
 
+```bash
 weather-forecast/
 │
 ├── weather.py
 ├── Kolkata_weather_data(2017-2022).csv
 ├── README.md
 └── requirements.txt (recommended)
+```
 
 ---
 
