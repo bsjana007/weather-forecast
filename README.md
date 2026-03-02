@@ -71,10 +71,10 @@ python weather.py
 
 The program will:
 
-1.Load historical weather data
-2.Train machine learning models
-3.Predict the next 5 days
-4.Print the forecast in the console
+1. Load historical weather data
+2. Train machine learning models
+3. Predict the next 5 days
+4. Print the forecast in the console
 
 ---
 
